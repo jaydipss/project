@@ -88,7 +88,7 @@ router.post(`/`, uploadOptions.single("image"), async (req, res) => {
   //res.send(newproduct);
 });
 
-// update product
+// update product-----
 router.put("/:id", async (req, res) => {
   // check valid id
   if (!mongoose.isValidObjectId(req.params.id)) {
