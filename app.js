@@ -33,7 +33,7 @@ app.use(`${api}/users`, UserRouter);
 
 //mongoose connectivity///
 mongoose
-  .connect(process.env.CONNECTION_STRING) // use env
+  .connect(process.env.CONNECTION_STRING)
   .then(() => {
     console.log("mongo db is connected");
   })
