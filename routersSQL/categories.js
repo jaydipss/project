@@ -28,7 +28,7 @@ routers.get(`/:id`, (req, res) => {
   );
 });
 
-//----delete single category
+//----delete single category-----
 routers.delete(`/:id`, (req, res) => {
   connection.query(
     "DELETE FROM `eshop-db`.Category WHERE category_id = ?",
