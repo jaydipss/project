@@ -45,5 +45,3 @@ mongoose
 app.listen(9999, () => {
   console.log(`it's listening`);
 });
-//add comments
-//sssś
