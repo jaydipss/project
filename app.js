@@ -31,7 +31,7 @@ app.use(`${api}/orders`, OrderRouter);
 app.use(`${api}/categories`, CategoryRouter);
 app.use(`${api}/users`, UserRouter);
 
-//mongoose connectivity
+//mongoose connectivity///
 mongoose
   .connect(process.env.CONNECTION_STRING) // use env
   .then(() => {
